@@ -51,5 +51,5 @@ jobs:
         run: ./scripts/deploy.sh
         shell: bash
         env:
-          SERVER: "<SERVER-IP>"
+          SERVER: "139.177.182.150"
           DEPLOY_USER: "github"
