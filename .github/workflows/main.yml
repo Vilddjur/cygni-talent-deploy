@@ -53,3 +53,7 @@ jobs:
         env:
           SERVER: "139.177.182.150"
           DEPLOY_USER: "github"
+
+      - name: Remove old deployments
+        run: ./scripts/remove-old-deploy.sh
+        shell: bash
