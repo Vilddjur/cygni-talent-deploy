@@ -1,4 +1,5 @@
 #!/bin/bash
+ssh github@139.177.182.150
 cd /opt/cygni
 readarray -t files <<<$(ls | sort)
 
